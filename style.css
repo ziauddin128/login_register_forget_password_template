@@ -1,0 +1,190 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Mulish', sans-serif;
+}
+
+.mainLogin
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+}
+
+.loginBox,.registeBox
+{
+    padding: 20px;
+    background-color: white;
+}
+
+.loginBox h4,.registeBox h4 
+{
+    font-size: 35px;
+    margin-bottom: 2px;
+}
+.newto
+{
+    font-size: 14px;
+    display: inline-block;
+    margin-top: 5px;
+    margin-bottom:30px;
+}
+
+.newto a 
+{
+    color: #22ab59;
+}
+
+.loginBox form label,.registeBox form label
+{
+    font-size: 17px;
+    display: inline-block;
+    margin-bottom: 4px;
+}
+.loginBox form input 
+{
+    width: 350px;
+    height: 40px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    box-shadow: none;
+    background-color: #e8f0fe;
+    padding: 4px 12px;
+    margin: 5px 0;
+    
+}
+
+.registeBox form input,.registerBottom select 
+{
+    width: 450px;
+    height: 40px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    box-shadow: none;
+    background-color: #e8f0fe;
+    padding: 4px 12px;
+    margin: 5px 0;
+}
+.registerBottom
+{ 
+
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.registerBottom input,.registerBottom select
+{
+    width: 210px !important;
+}
+
+
+.loginBox form input:focus,.registeBox form input:focus,.registeBox form select:focus
+{
+    border: 2px solid lightblue;
+}
+.loginBottom
+{
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 0;
+}
+.rememberBox input,.rememberBox2 input  
+{
+    height: 16px !important;
+    width: 16px !important;
+    line-height: 16px;
+    cursor: pointer;
+}
+.rememberBox span 
+{
+    font-size: 16px;
+    margin-left: 3px;
+}
+.rememberBox2 span 
+{
+    font-size: 16px;
+    margin-left: 3px;
+}
+.loginBottom a 
+{
+    font-size: 16px;
+    color: #22ab59 !important;
+}
+.loginBtn
+{
+    background-color: #22ab59 !important;
+    color: white;
+    font-size: 17px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.loginBtn:focus
+{
+    border: none !important;
+}
+
+.backBtn
+{
+    font-size: 18px;
+    display: inline-block;
+    margin-right: 30px;
+    color: black !important;
+    font-weight: 400 !important;
+}
+
+.backBtnSpan i
+{
+    font-size: 16px;
+    color: #22ab59;
+    cursor: pointer;
+    text-decoration: none !important;
+}
+
+
+
+@media (max-width:599px)
+{
+    .loginBox form input 
+    {
+        width: 280px;
+    }
+
+    .registerBottom {
+        display: block;
+    }
+
+    .registeBox form input 
+    {
+        width: 280px;
+    }
+    .registerBottom input, .registerBottom select {
+        width: 280px !important;
+    }
+    .rememberBox span 
+    {
+        width: 280px;
+        font-size: 14px;
+    }
+
+    .rememberBox2 span 
+    {
+        
+        width: 280px !important;
+        display: inline-block;
+    }
+
+    .backBtn
+    {
+        margin-right: 10px;
+    }
+    .newto
+    {
+        width: 280px;
+    }
+}
